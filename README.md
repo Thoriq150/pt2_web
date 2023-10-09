@@ -44,3 +44,7 @@ Berikan penjelasan dan contohnya! ( `<p id="paragraf-1" class="text-paragraf">` 
 1.menambahkan border saat pengguna mengarahkan kursor ke link pada navigasi, mengubah fon size navigasi dan mengubah warna text pada link aktif dan mengubah warna
 ![Screenshot (126)](https://github.com/Thoriq150/pt2_web/assets/115950790/7005b27d-db66-436b-9884-79fa2650a7d0)
 ![Screenshot (127)](https://github.com/Thoriq150/pt2_web/assets/115950790/f152f8e4-15b5-4511-8334-088cc5a9c6ff)
+
+2. h1 {...} adalah pendeklarasian CSS untuk semua elemen h1 di halaman HTML.
+#intro h1 {...} adalah pendeklarasian CSS khusus untuk elemen h1 yang berada di dalam elemen dengan ID intro (<div id="intro">).
+Jadi, perbedaannya adalah h1 {...} akan mempengaruhi semua elemen h1 di halaman, sementara #intro h1 {...} hanya akan mempengaruhi elemen h1 yang berada di dalam elemen dengan ID intro.
