@@ -46,5 +46,5 @@ Berikan penjelasan dan contohnya! ( `<p id="paragraf-1" class="text-paragraf">` 
 ![Screenshot (127)](https://github.com/Thoriq150/pt2_web/assets/115950790/f152f8e4-15b5-4511-8334-088cc5a9c6ff)
 
 2. h1 {...} adalah pendeklarasian CSS untuk semua elemen h1 di halaman HTML.
-#intro h1 {...} adalah pendeklarasian CSS khusus untuk elemen h1 yang berada di dalam elemen dengan ID intro (<div id="intro">).
+#intro h1 {...} adalah pendeklarasian CSS khusus untuk elemen h1 yang berada di dalam elemen dengan ID intro (`<div id="intro">`).
 Jadi, perbedaannya adalah h1 {...} akan mempengaruhi semua elemen h1 di halaman, sementara #intro h1 {...} hanya akan mempengaruhi elemen h1 yang berada di dalam elemen dengan ID intro.
