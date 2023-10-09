@@ -19,3 +19,4 @@ Kemudian tambahkan deklarasi inline CSS pada tag Paragraf `<p>` seperti berikut.
 Buatlah file baru dengan nama style_eksternal.css kemudian buatlah deklarasi CSS seperti berikut.
 ![Screenshot (118)](https://github.com/Thoriq150/pt2_web/assets/115950790/3f52527e-3d71-4729-b26a-79f808475cc8)
 Kemudian tambahkan tag  link`<link>` untuk merujuk file css yang sudah dibuat pada bagian `<head>`
+![Screenshot (119)](https://github.com/Thoriq150/pt2_web/assets/115950790/7f140429-fe21-470a-9b9e-70937e954da5)
