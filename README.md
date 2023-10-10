@@ -48,3 +48,18 @@ Berikan penjelasan dan contohnya! ( `<p id="paragraf-1" class="text-paragraf">` 
 2. h1 {...} adalah pendeklarasian CSS untuk semua elemen h1 di halaman HTML.
 #intro h1 {...} adalah pendeklarasian CSS khusus untuk elemen h1 yang berada di dalam elemen dengan ID intro (`<div id="intro">`).
 Jadi, perbedaannya adalah h1 {...} akan mempengaruhi semua elemen h1 di halaman, sementara #intro h1 {...} hanya akan mempengaruhi elemen h1 yang berada di dalam elemen dengan ID intro.
+3. Apabila ada deklarasi CSS secara internal, lalu ditambahkan CSS eksternal dan inline CSS pada elemen yang sama. Deklarasi manakah yang akan ditampilkan pada browser? Berikan penjelasan dan contohnya!
+
+- CSS Internal: diletakkan di bagian ```<head>```, prioritas sedang dan mengganti style external tetapi dapat diganti dengan style inline. contoh 
+![e](foto2/e.png)
+- CSS Eksternal: diletakkan di dalam file.css terpisah, mengurangi ukuran file HTML, prioritas terendah dan dapat diganti dengan style inline dan internal. contoh 
+![ee](foto2/ee.png)
+- CSS Inline: diletakkan di dalam tag HTML menggunakan atribut style, memiliki prioritas tertinggi dan menggantikan internal dan external. contoh 
+![eee](foto2/eee.png)
+
+4. Pada sebuah elemen HTML terdapat ID dan Class, apabila masing-masing selector tersebut terdapat deklarasi CSS, maka deklarasi manakah yang akan ditampilkan pada browser? Berikan penjelasan dan contohnya! ```(<p id="paragraf-1" class="text-paragraf"> )```
+
+![foto](foto2/f.png)
+![foto](foto2/ff.png)
+
+- deklarasi dengan ID memberikan warna merah dan deklarasi dengan Class memberikan warna biru. karena deklarasi dengan ID memiliki prioritas yang lebih tinggi maka akan memberikan warna merah
