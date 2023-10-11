@@ -51,15 +51,19 @@ Jadi, perbedaannya adalah h1 {...} akan mempengaruhi semua elemen h1 di halaman,
 3. Apabila ada deklarasi CSS secara internal, lalu ditambahkan CSS eksternal dan inline CSS pada elemen yang sama. Deklarasi manakah yang akan ditampilkan pada browser? Berikan penjelasan dan contohnya!
 
 - CSS Internal: diletakkan di bagian ```<head>```, prioritas sedang dan mengganti style external tetapi dapat diganti dengan style inline. contoh 
-![e](foto2/e.png)
+![image](https://github.com/Thoriq150/pt2_web/assets/115950790/b785854e-f8cb-4a15-96cb-11c30912ee16)
+
 - CSS Eksternal: diletakkan di dalam file.css terpisah, mengurangi ukuran file HTML, prioritas terendah dan dapat diganti dengan style inline dan internal. contoh 
-![ee](foto2/ee.png)
+![image](https://github.com/Thoriq150/pt2_web/assets/115950790/5c9fe162-edc1-4898-8003-04fee6581577)
+
 - CSS Inline: diletakkan di dalam tag HTML menggunakan atribut style, memiliki prioritas tertinggi dan menggantikan internal dan external. contoh 
-![eee](foto2/eee.png)
+![image](https://github.com/Thoriq150/pt2_web/assets/115950790/511d931f-f748-4250-8fc6-72194cf5052a)
 
 4. Pada sebuah elemen HTML terdapat ID dan Class, apabila masing-masing selector tersebut terdapat deklarasi CSS, maka deklarasi manakah yang akan ditampilkan pada browser? Berikan penjelasan dan contohnya! ```(<p id="paragraf-1" class="text-paragraf"> )```
 
-![foto](foto2/f.png)
-![foto](foto2/ff.png)
+![image](https://github.com/Thoriq150/pt2_web/assets/115950790/51b05e01-36d5-4e0a-89cf-be17cbe3bb6a)
+
+![image](https://github.com/Thoriq150/pt2_web/assets/115950790/1fb536ce-f848-4fac-a63b-f3c15f81f3e4)
+
 
 - deklarasi dengan ID memberikan warna merah dan deklarasi dengan Class memberikan warna biru. karena deklarasi dengan ID memiliki prioritas yang lebih tinggi maka akan memberikan warna merah
